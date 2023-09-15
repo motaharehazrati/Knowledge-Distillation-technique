@@ -1,5 +1,5 @@
 # Knowledge-Distillation-technique
-n this experiment, we employed the Knowledge Distillation technique to train a smaller model using a larger pre-trained model, following these sequential steps:
+In this experiment, we employed the Knowledge Distillation technique to train a smaller model using a larger pre-trained model, following these sequential steps:
 
 We began with a ResNet50 model, pre-trained on the ImageNet dataset. To adapt it for the CIFAR-10 problem, we replaced its final fully connected layer with one of an appropriate size. The parameters of the network remained constant, with only the final layer being trained and evaluated on the CIFAR-10 dataset.
 
